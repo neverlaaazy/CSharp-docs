@@ -1,0 +1,5 @@
+INSERT INTO TestTable(ProductName, Price) VALUES ('Компьютер', 100)
+
+="INSERT INTO Student(Lastname, Firstname, Age, AcademicGroupId) VALUES ('"&RC[-4]&"','"&RC[-3]&"',"&RC[-2]&","&RC[-1]&")"
+
+="INSERT INTO AcademicGroup([Name], CreationYear) VALUES ('"&RC[-2]&"',"&RC[-1]&")"
